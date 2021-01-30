@@ -1,0 +1,23 @@
+/* ------------------------------------------------------------ *\
+	Recipe
+\* ------------------------------------------------------------ */
+
+.recipe {
+	padding: 50px;
+	background: #dadada;
+	border-radius: 15px;
+
+	.recipe__head {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	.recipe__image {
+		text-align: center;
+		margin-bottom: 40px;
+
+		img {
+			border: 4px solid #000;
+		}
+	}
+}

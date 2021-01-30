@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-	<include src="head.html"></include>
-<body>
+<include src="head.html"></include>
+<body class="loading">
 	<div class="wrapper">
-		<include src="header.html"></include>
+		<div class="wrapper__inner">
+			<header class="header">
 
-		<include src="footer.html"></include>
+			</header><!-- /.header -->
+
+			<div class="main">
+				<div class="section">
+					<div class="shell">
+						<div class="section__head">
+							<h1>
+								Какво ще готвя днес...?
+							</h1>
+
+							<form action="?" method="post" class="form-recipe">
+								<p>
+									Натисни бутона, за да разбереш отговора на вечния въпрос:
+								</p>
+
+								<button type="submit" class="btn">
+									Давай, че ме сърби вече
+								</button>
+							</form>
+						</div><!-- /.section__head -->
+
+						<div class="section__body">
+							<div class="recipe hidden">
+								<div class="recipe__inner">
+									<div class="recipe__head">
+										<h3 class="recipe__title">
+										</h3><!-- /.recipe__title -->
+									</div><!-- /.recipe__head -->
+
+									<div class="recipe__body">
+										<div class="recipe__image">
+											<img src="" alt="Recipe Image">
+										</div><!-- /.recipe__image -->
+
+										<div class="grid">
+											<div class="grid__col grid__col--1of2">
+												<h5>
+														Съставки:
+												</h5>
+
+												<ul class="recipe__ingredients">
+												</ul><!-- /.recipe__ingredients -->
+											</div><!-- /.grid__col grid__col-/-1of2 -->
+
+											<div class="grid__col grid__col--1of2">
+												<h5>
+														Начин на приготвяне:
+												</h5>
+
+												<div class="recipe__preparation">
+												</div><!-- /.recipe__preparation -->
+											</div><!-- /.grid__col grid__col-/-1of2 -->
+										</div><!-- /.grid -->
+									</div><!-- /.recipe__body -->
+								</div><!-- /.recipe__inner -->
+							</div><!-- /.recipe -->
+						</div><!-- /.section__body -->
+					</div><!-- /.shell -->
+				</div><!-- /.section -->
+			</div><!-- /.main -->
+
+			<footer class="footer">
+
+			</footer><!-- /.footer -->
+		</div><!-- /.wrapper__inner -->
 	</div><!-- /.wrapper -->
 
 	<include src="scripts.html"></include>

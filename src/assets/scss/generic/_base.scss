@@ -5,7 +5,7 @@
 body {
 	min-width: 320px;
 	background: #fff;
-	font-family: $ff-sans-serif;
+	font-family: $ff-text;
 	font-weight: $font-weight-base;
 	font-size: $font-size-base;
 	line-height: $line-height-base;
@@ -25,6 +25,10 @@ a {
 	}
 }
 
+ol,
+ul {
+	list-style-position: inside;
+}
 
 .h1,
 h1,
@@ -38,6 +42,7 @@ h4,
 h5,
 .h6,
 h6 {
+	font-family: $ff-titles;
 	margin-bottom: calc(#{$line-height-base}em / 2);
 }
 
@@ -67,7 +72,7 @@ dl,
 hr,
 table,
 blockquote {
-	margin-bottom: #{$line-height-base}em;
+	margin-bottom: 20px;
 }
 
 h1[class],

@@ -1,21 +1,21 @@
 //Variables
-$font-size-base             : 16px;
-$font-weight-base           : 400;
-$line-height-base           : 1.2;
+$font-size-base   : 28px;
+$font-weight-base : 400;
+$line-height-base : 1.4;
 
-$ff-sans-serif              : "Helvetica Neue", Helvetica, Arial, sans-serif;
-$ff-serif                   : Georgia, "Times New Roman", Times, serif;
+$ff-text          : "Amatic SC", cursive;
+$ff-titles        : "Lobster", cursive;
 
-$t-duration                 : 0.4s;
+$t-duration       : 0.4s;
 
-$shell-max-width            : 1140px;
-$shell-gutter               : 15px;
+$shell-max-width  : 1140px;
+$shell-gutter     : 15px;
 
-$c-black                    : #000;
-$c-white                    : #fff;
-$c-base                     : #055590;
+$c-black          : #000;
+$c-white          : #fff;
+$c-base           : #055590;
 
-$responsive-ios             : 812px;
+$responsive-ios   : 812px;
 
 $breakpoints: (
 	mobile-small: 374px,

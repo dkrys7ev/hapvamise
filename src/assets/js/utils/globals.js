@@ -1,3 +1,3 @@
-export const $window = $(window);
-export const $document = $(document);
+export const $win = $(window);
+export const $doc = $(document);
 export const $body = $('body');

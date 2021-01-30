@@ -1,0 +1,20 @@
+/* ------------------------------------------------------------ *\
+	Section
+\* ------------------------------------------------------------ */
+
+.section {
+	padding: 150px 0;
+
+	.section__head {
+		text-align: center;
+		margin-bottom: 50px;
+
+		.btn {
+			padding: 5px 10px;
+		}
+	}
+
+	@include breakpoint-down(mobile) {
+		padding: 50px 0;
+	}
+}
