@@ -1,0 +1,34 @@
+/* ------------------------------------------------------------ *\
+	Form Recipe
+\* ------------------------------------------------------------ */
+
+.form-recipe {
+	max-width: 480px;
+	margin: 0 auto;
+
+	.form__body {
+		margin: 0 -10px 30px;
+	}
+
+	.form__row {
+		padding: 0 10px;
+	}
+
+	.form__actions {
+		button {
+			padding: 5px 10px;
+			height: 40px;
+			line-height: 26px;
+			border: 2px solid #000;
+			background: #fafafa;
+		}
+	}
+
+	select {
+		padding: 0 10px;
+		width: 100%;
+		background: #fafafa;
+		border: 2px solid #000;
+		height: 40px;
+	}
+}

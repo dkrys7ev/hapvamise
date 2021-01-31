@@ -17,17 +17,62 @@
 							</h1>
 
 							<form action="?" method="post" class="form-recipe">
-								<p>
-									Натисни бутона, за да разбереш отговора на вечния въпрос:
-								</p>
+								<div class="form__body grid">
+									<div class="form__row grid__col grid__col--1of2">
+										<label for="field-type">Вид рецепта:</label>
 
-								<button type="submit" class="btn">
-									Давай, че ме сърби вече
-								</button>
+										<div class="form__controls">
+											<select id="field-type" name="type" required>
+												<option value="" selected>-- Избери --</option>
+												<option value="meat">С месо</option>
+												<option value="meatless">Без месо</option>
+												<option value="deserts">Десерти</option>
+												<option value="breakfast">Закуска</option>
+											</select>
+										</div><!-- /.form__controls -->
+									</div><!-- /.form__row -->
+
+									<div class="form__row grid__col grid__col--1of2">
+										<label for="field-product">Основен продукт:</label>
+
+										<div class="form__controls">
+											<select id="field-product" name="product">
+												<option value="" selected>-- Избери --</option>
+												<option value="pork">Свинско месо</option>
+												<option value="chicken">Пилешко месо</option>
+												<option value="beef">Телешко месо</option>
+												<option value="peas">Грах</option>
+												<option value="potatoes">Картофи</option>
+												<option value="carrots">Моркови</option>
+												<option value="rice">Ориз</option>
+												<option value="vegetables">Зеленчуци</option>
+												<option value="pepper">Пипер</option>
+												<option value="beans">Боб</option>
+												<option value="eggplant">Патладжан</option>
+												<option value="sour-cabbage">Кисело Зеле</option>
+												<option value="flour">Брашно</option>
+											</select>
+										</div><!-- /.form__controls -->
+									</div><!-- /.form__row -->
+								</div><!-- /.form__body -->
+
+								<div class="form__actions">
+									<p>
+										Натисни бутона, за да разбереш отговора на вечния въпрос:
+									</p>
+
+									<button type="submit" class="btn">
+										Давай
+									</button>
+								</div><!-- /.form__actions -->
 							</form>
 						</div><!-- /.section__head -->
 
 						<div class="section__body">
+							<h4 class="error hidden">
+								Няма намерени рецепти
+							</h4>
+
 							<div class="recipe hidden">
 								<div class="recipe__inner">
 									<div class="recipe__head">
@@ -43,7 +88,7 @@
 										<div class="grid">
 											<div class="grid__col grid__col--1of2">
 												<h5>
-														Съставки:
+													Съставки:
 												</h5>
 
 												<ul class="recipe__ingredients">
@@ -52,7 +97,7 @@
 
 											<div class="grid__col grid__col--1of2">
 												<h5>
-														Начин на приготвяне:
+													Начин на приготвяне:
 												</h5>
 
 												<div class="recipe__preparation">
