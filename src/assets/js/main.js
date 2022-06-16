@@ -1,10 +1,10 @@
 /*
  * Polyfills
  */
-import './polyfills/object-fit';
+import "./polyfills/object-fit";
 
 /*
  * Modules
  */
-import './modules/loading';
-import './modules/pick-recipe';
+import "./modules/loading";
+import "./modules/pick-recipe";
